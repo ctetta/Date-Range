@@ -1,6 +1,6 @@
 
 
-chat-loader
+
 
 It’s is bad idea as you’re depending on the client machine date/time and correct approach would be doing that in server side. Fortunately  in my setup the client machine is also the server.
 
@@ -35,48 +35,4 @@ HTML:
 </html>
 
 Put the date range inside a span inside each div with the class “DateRange”.
-
-Next, have such CSS to have them initially hidden.
-
-CSS:
-
-/*
-Name: Code - Display content based on the date
-URI: : http://www.studiopieters.nl/code-display-content-based-date
-Description: Jquery or JavaScript that displays content based on specifics date period.
-Version: 0.0.3
-Author: Achim Pieters
-Author URI: http://www.studiopieters.nl
-*/
-
-.DateRange,
-.DateDiv {
-  display: none;
-}
-
-And finally, this script:
-
-Script:
-
-/*
-Name: Code - Display content based on the date
-URI: : http://www.studiopieters.nl/code-display-content-based-date
-Description: Jquery or JavaScript that displays content based on specifics date period.
-Version: 0.0.3
-Author: Achim Pieters
-Author URI: http://www.studiopieters.nl
-*/
-
-$(function() {
-    $(".DateDiv").each(function(index) {
-        var sRange = $(this).find(".DateRange").html();
-        var arrTemp = sRange.split(" to ");
-        var dtFrom = new Date(arrTemp[0]);
-        var dtTo = new Date(arrTemp[1]);
-        var dtNow = new Date();
-        if (dtNow >= dtFrom && dtNow <= dtTo)
-            $(this).show();
-    });
-});
-
 
