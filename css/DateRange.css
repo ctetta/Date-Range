@@ -1,0 +1,13 @@
+/*
+Name: Code - Display content based on the date
+URI: : http://www.studiopieters.nl/code-display-content-based-date
+Description: Jquery or JavaScript that displays content based on specifics date period.
+Version: 0.0.3
+Author: Achim Pieters
+Author URI: http://www.studiopieters.nl
+*/
+
+.DateRange,
+.DateDiv {
+  display: none;
+}
