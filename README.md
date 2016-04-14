@@ -79,28 +79,4 @@ $(function() {
     });
 });
 
-Download all Files for this project on github
-
-Do you have any questions? Leave a comment down below!
-
-Filed under Devolpment, Web Design. Tagged CSS3, Design, HTML5, JAVA, Simple, Time, Web, Work.
-Achim Pieters
-The author
-Achim Pieters
-Previous
-You might also like
-
-    thumb
-    Synology – Setting up a SSL-connection
-
-    April 13, 2016
-    thumb
-    DIY – First Order Storm trooper – Part VI
-
-    March 30, 2016
-    thumb
-    JQuery – Swipe
-
-    March 23, 2016
-
 
